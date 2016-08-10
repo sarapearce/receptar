@@ -1,0 +1,109 @@
+body {
+	
+}
+
+.favicon-display {
+	float: left;
+}
+
+.favicon-control {
+	
+}
+
+.preview-favicon-main-buttons{
+	float: left;
+	margin-left: 10px;
+}
+
+#ht-select-favicon {
+	left: 10px;
+	float: left;
+	clear: left;
+}
+
+#ht-clear-favicon {
+	left: 20px;
+	float: left;
+	clear: left;
+	margin-top: 10px;
+}
+
+.preview-favicon {
+	position: relative;
+}
+
+.preview-favicon-main {
+	height: 228px;
+
+}
+
+.preview-favicon-image {
+	background-color: white;
+	height: 228px;
+	width: 228px;
+	position: relative;
+	background-color: #fafafa;
+	float: left;
+	margin: 10px;
+}
+
+.preview-favicon-image img.centered {
+	margin: auto;
+  	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.preview-favicon-image .ht-not-generated {
+	margin: auto;
+  	position: absolute;
+  	margin: 10px;
+}
+
+.preview-favicon-title h3 {
+	font-size: 12px;
+	padding: 0px;
+	border-bottom: 0px solid black;
+	margin-bottom: 0px;
+
+	text-align: center;
+}
+
+.replace-generated{
+	position: absolute;
+	top: 190px;
+	left: 20px;
+}
+
+.restore-generated{
+	position: absolute;
+	top: 220px;
+	left: 20px;
+}
+
+.favicon-override-id{
+	display: none;
+}
+
+.favicon-enabled{
+	position: absolute;
+	top: 35px;
+	left: 20px;
+	padding: 5px;
+	background-color: #fff;
+}
+
+ul.preview-items-list {
+	display: block;
+}
+
+li.preview-item {
+	float: left;
+	display: block;
+}
+
+p.submit {
+    display: block;
+    clear: left;
+}
+
+

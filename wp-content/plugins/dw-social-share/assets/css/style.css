@@ -1,0 +1,164 @@
+.dw-social-share:before,
+.dw-social-share:after {
+    content: " ";
+    display: table;
+}
+
+.dw-social-share:after {
+    clear: both;
+}
+
+.dw-social-share li {
+	display: block;
+	float: left;
+	padding: 0 5px;
+}
+
+.dw-social-share li:hover {
+	opacity: 0.6;
+}
+
+.dw-social-share .dwss-facebook a i { background: #306199; }
+.dw-social-share .dwss-twitter a i { background: #26c4f1; }
+.dw-social-share .dwss-google-plus a i { background: #e93f2e; }
+.dw-social-share .dwss-linkedin a i { background: #007bb6; }
+.dw-social-share .dwss-pinterest a i { background: #b81621; }
+.dw-social-share .dwss-mail a i , .dw-social-share .dwss-print a i { background: #000; }
+
+.dwss-style-1 a i {
+	line-height: 36px;
+	text-align: center;
+	width: 36px;
+	height: 36px;
+	color: #fff;
+	font-size: 14px;
+}
+.dwss-style-1 span {
+  display: none;
+}
+
+.dwss-style-2 a i {
+	line-height: 24px;
+	text-align: center;
+	width: 24px;
+	height: 24px;
+	color: #fff;
+	font-size: 14px;
+}
+.dwss-style-2 span {
+  display: none;
+}
+
+.dwss-style-3 a i {
+	line-height: 36px;
+	text-align: center;
+	width: 36px;
+	height: 36px;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 50%
+}
+.dwss-style-3 span {
+  display: none;
+}
+
+.dwss-style-4 a i {
+	line-height: 24px;
+	text-align: center;
+	width: 24px;
+	height: 24px;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 50%
+}
+.dwss-style-4 span {
+  display: none;
+}
+
+.dwss-style-5 a i {
+	line-height: 36px;
+	text-align: center;
+	border-radius: 3px;
+	width: 36px;
+	height: 36px;
+	color: #fff;
+	font-size: 14px;
+}
+.dwss-style-5 span {
+  display: none;
+}
+
+.dwss-style-6 a i {
+	line-height: 24px;
+	text-align: center;
+	border-radius: 3px;
+	width: 24px;
+	height: 24px;
+	color: #fff;
+	font-size: 14px;
+}
+.dwss-style-6 span {
+  display: none;
+}
+
+.dwss-style-7 a {
+	display: block;
+}
+.dwss-style-7 a i {
+	line-height: 24px;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 2px 0 0 2px;
+    display: block;
+    float: left;
+}
+
+.dwss-style-7 li {
+  background: #fff;
+  margin-right: 5px;
+  padding: 0;
+}
+
+
+.dwss-style-7 li span {
+	font-family: arial;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 0 9px;
+    display: block;
+    float: right;
+    line-height: 22px;
+    border-radius: 0 2px 2px 0;
+}
+.dwss-style-7 li.dwss-facebook span {
+	color: #306199;
+	border: 1px solid #306199;
+}
+
+.dwss-style-7 li.dwss-twitter span {
+	color: #26c4f1;
+	border: 1px solid #26c4f1;
+}
+
+.dwss-style-7 li.dwss-google-plus span {
+	color: #e93f2e;
+	border: 1px solid #e93f2e;
+}
+
+.dwss-style-7 li.dwss-linkedin span {
+	color: #007bb6;
+	border: 1px solid #007bb6;
+}
+
+.dwss-style-7 li.dwss-pinterest span {
+	color: #b81621;
+	border: 1px solid #b81621;
+}
+
+.dwss-style-7 li.dwss-mail span, .dwss-style-7 li.dwss-print span {
+	color: #000;
+	border: 1px solid #000;
+}

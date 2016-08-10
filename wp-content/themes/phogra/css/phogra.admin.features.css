@@ -1,0 +1,7 @@
+#album_meta_box { display: none; }
+.form .formfield { overflow: hidden; margin-bottom: 10px; }
+.form .formfield label { float: left; width: 140px; line-height: 24px; }
+.form .image-list .formfield { float: left; margin: 0px 5px 5px 0px; border: 1px solid #DFDFDF; border-radius: 5px; position: relative; }
+.form .image-list img { display: block; }
+.form .image-list .remove { display: none; position: absolute; right: 3px; bottom: 3px; background: #fff; padding: 1px 3px; border-radius: 3px; font-weight: bold; text-decoration: none; }
+.form .image-list .formfield:hover .remove { display: block; }

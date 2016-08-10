@@ -1,0 +1,141 @@
+@-ms-viewport {
+  width: device-width;
+}
+
+@media (max-width: 989px) {
+	/* Homepage */
+	#slider .slider-prev { left: 60px; } 
+	#slider .slider-next,
+	#slider .slider-back { right: 60px; }
+	/* End Homepage */
+	
+	/* Contact */
+	#contact-content { padding: 30px 60px; }
+	/* End Contact */
+	
+	/* Blog */
+	.site-content {
+		margin: 0px 60px;
+		width: auto;
+	}
+	#blog-listing .post.post-1 {
+		margin-right: 0px; 
+		width: auto; 
+	}
+	.site-main {
+		float: none;
+		width: auto;
+	}
+	.site-side { display: none; }
+	#blog-listing .post,
+	#blog-listing .post.post-2,
+	#blog-listing .post.post-col-two-1 {
+		margin-right: 4%; 
+		width: 48%;
+	}
+	#blog-listing .post.post-col-two-0 { margin-right: 0px; }
+	#blog-listing .post.post-single { width: 100%; }
+	#post-comments .formfield.col { width: 48%; }
+	#blog-listing .post.post-1 .body { height: auto; }
+	/* End Blog */
+	
+	/* Albums */
+	#albums-list { width: 510px; }
+	/* End Albums */
+	
+	/* About */
+	#column-content {
+		margin: 0px 145px;
+		width: auto;
+	}
+	/* End About */
+}
+
+@media (max-width: 767px) {
+	/* Homepage */
+	#slider .slider-prev { left: 30px; } 
+	#slider .slider-next,
+	#slider .slider-back { right: 30px; }
+	/* End Homepage */
+	
+	/* Albums */
+	#albums-list { 
+		padding: 50px 0px;
+		width: auto; 
+	}
+	#albums-list .album {
+		float: none; 
+		margin: 0px auto 30px; 
+	}
+	/* End Albums */
+	
+	/* About */
+	#column-content {
+		margin: 0px 0px 0px 43px;
+		width: auto;
+	}
+	/* End About */
+	
+	/* Blog */
+	.site-content { margin: 0px 5px; }
+	#blog-listing .post, 
+	#blog-listing .post.post-2, 
+	#blog-listing .post.post-col-two-1 {
+		float: none;
+		margin: 0px 0px 20px;
+		width: auto;
+	}
+	#blog-listing .post .content { padding: 20px 10px; }
+	#blog-listing .post.post-1 .content { padding-top: 70px; }
+	#blog-listing .post .body { 
+		height: auto;
+		max-height: 96px; 
+	}
+	#blog-listing .post.post-single .body { max-height: 99999px; }
+	#post-comments .formfield.col,
+	#post-comments .formfield.col.col-right {
+		float: none;
+		margin-bottom: 10px;
+		width: auto;
+	}
+	#comments-list .comment {
+		padding: 10px;
+	}
+	#comments-list .comment header { margin-bottom: 10px; }
+	#comments-list .comment img {
+		position: relative;
+		float: left;
+		left: 0px;
+		top: 0px;
+	}
+	#comments-list .author-name {
+		float: none;
+		margin-left: 95px;
+		padding-top: 30px;
+	}
+	#comments-list .comment-pending {
+		float: none;
+		margin-left: 95px;
+	}
+	#post-comments .form-submit #submit { width: 120px; }
+	#post-comments #explanation .inside {
+		font-size: 14px;
+		margin-left: 130px;
+		line-height: 18px;
+	}
+	/* End Blog */
+	
+	/* Contact */
+	#contact-content { padding: 30px 20px; }
+	#contact-content .column-1 {
+		float: none;
+		width: auto;
+	}
+	#contact-content .column-2 { display: none; }
+	/* End Contact */
+	
+	#image-loader { 
+		top: auto;
+		bottom: 100px; 
+	}
+}

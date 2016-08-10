@@ -1,0 +1,41 @@
+/*
+Theme Name: Phogra
+Author: the Templatypus team
+Author URI: http://templatypus.com/
+Theme URI: http://templatypus.com/gallery/details/template/phogra
+Description: Phogra is a responsive and customizable photography portfolio. It is our interpretation of how a photofolio should look like. As with all of our templates, we focused on usability across various devices, starting with smartphones. This is what a photography portfolio should be about: showing off your photography skills through the display of large photos. So we focused on that and we added a nice little menu to wrap things together.
+Version: 1.9
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: fluid-layout, responsive-layout, custom-menu, featured-images, theme-options, dark, green, left-sidebar, custom-background, custom-colors, custom-menu, full-width-template, photoblogging
+Text Domain: templaty
+*/
+
+@import url("css/fonts.css");
+@import url("css/main.css?v=1.6");
+@import url("css/responsive.css");
+
+.sticky {
+	display: block;
+}
+.wp-caption {
+    max-width: 100%;
+}
+.wp-caption-text,
+.gallery-caption ,
+.bypostauthor  {
+	font-weight: normal;
+}
+
+.alignleft {
+  	float: left;
+  	margin: 0px 10px 10px 0px;
+}
+.alignright {
+  	float: right;
+  	margin: 0px 0px 10px 0px;
+}
+.aligncenter {
+  	display: block;
+  	margin: 0px auto 10px;
+}

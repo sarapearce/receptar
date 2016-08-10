@@ -1,0 +1,9 @@
+/*template for 1 column theme*/
+
+#secondary {
+	display: none;
+}
+#primary {
+	float: none;
+	margin: auto;
+}

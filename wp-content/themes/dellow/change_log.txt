@@ -1,0 +1,49 @@
+Version 1.0
+
+	i) Initial Release.
+	
+Version 1.0.2
+
+	i) Added Translation Support for Plenty of Languages.	
+	
+Version 1.0.5
+
+	i) Minor Bug Fixes	
+	
+Version 1.0.6
+
+	i) Removed Redundant code from functions.php
+	ii) Static Top Bar with Admin Bar enabled fixed.	
+	
+Version 1.0.6.1
+
+	i) Fixed Issue with Nivo Slider which caused animations to not show.(Removed extra div)
+	ii) Updated Pro Version Price
+	iii) Added Coupon Code Details
+	iv) Moved Excerpt settings to Design, where it makes more sense.
+		
+Version 1.0.6.2
+
+	i) Screenshot changed to Fully GPL
+	ii) Social Links now open in new tab	
+	
+Version 1.0.6.3
+
+	i) Fixed text-domain issues. Replaced the Options framework text domain with theme's text-domain.
+	ii) Updated Dellow.pot file with all the new strings.
+	iii) Screenshot updated.	
+
+Version 1.0.6.4
+
+	i) Added screenshot, which wasn't included in previous update.	
+
+Version 1.1
+
+	i) Added New Menu Bar
+	ii) Updated Sidr Library
+	iii) Fixed Issues with Background Header Image.
+	iv) Changed Default Color Scheme
+	v) Relocated Slider and Social Code.
+	vi) Fixed Issues with $content_width
+	vii) Other Minor Bug Fixes.
+	viii) Specified Defaults

@@ -1,0 +1,8 @@
+<root translate="smartslider">
+    <params name="slider" label="Configuration">
+        <param type="mixed" label="Translate_url" name="translateurl" default="|*|" description="">
+            <param type="text" label="From" />
+            <param type="text" label="To" />
+        </param>
+    </params>
+</root>
